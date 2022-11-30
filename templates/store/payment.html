@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="card text-center">
+  <h5 class="card-header">Pago exitoso!</h5>
+  <div class="card-body">
+    <h3 class="card-title">Pedido: {{cart_id}} </h3>
+    <p class="card-text">Puedes pasar a recoger tu pedido en la tienda Froggers de Hermosillo .</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27897.703379390307!2d-110.99518430318528!3d29.06985247649523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce84487ef0530b%3A0x396cb5dac30f1a3b!2sEDIFICIO%205M%20-%20DIVISI%C3%93N%20INGENIER%C3%8DA%2C%20ING%20INDUSTRIAL.%20AULAS%20Y%20CUB%C3%8DCULOS!5e0!3m2!1ses-419!2smx!4v1669798985456!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p></p>
+    <p></p>
+    <a href="{% url 'home' %}" class="btn btn-success">Volver al inicio</a>
+
+  </div>
+</div>
+
+
+
+{% endblock %}

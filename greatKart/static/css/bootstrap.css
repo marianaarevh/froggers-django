@@ -166,7 +166,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #1244bd;
+  color: #2b542c;
   text-decoration: underline;
 }
 
@@ -2368,7 +2368,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #343a40;
+  color: #3c763d;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -2391,8 +2391,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #1650e0;
-  border-color: #154cd4;
+  background-color: #3c763d;
+  border-color: #3c763d;
 }
 .btn-primary:focus, .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(80, 126, 238, 0.5);
